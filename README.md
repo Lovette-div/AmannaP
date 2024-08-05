@@ -45,23 +45,22 @@ This project implements a machine learning model to predict agricultural product
 3. Submit the form to receive a price prediction.
   ## Model Training
 
-The `model_training.py` script contains the code used to preprocess the data, train the model, and save it. Key steps include:
+The `Final.py` and 'Final.ipynb' script contains the code used to preprocess the data, train the model, and save it. Key steps include:
 
 - Loading and cleaning the dataset
 - Feature engineering (including datetime processing)
 - Splitting data into training and testing sets
 - Scaling features using StandardScaler
 - Training the model (We trained Regressors like: DecisionTree, RandomForest Regressor and Linear Regressor, we fine-tuned the model using GridSearchCV)
-- We passed the model through Ensemble learning models like GradientBoost, Stacking and Voting.
+- We passed the model through Ensemble learning models like GradientBoost, XGBoost, Stacking and Voting.
 - We went ahead to explore other deep learning models like CNN and LSTM.
-- Saving the best performing trained model using joblib
+- Saving the best performing trained model(XGBoost) using joblib
 
 ## File Structure
 
 - `app.py`: Main Flask application
-- `model_training.py`: Script for training and saving the model
+- `Final.py` and 'Final.ipynb': Script for training and saving the model
 - `base_model.sav`: Saved trained model
-- `requirements.txt`: List of Python dependencies
 - `templates/`: Directory containing HTML templates (if any)
 - ## Future Improvements
 
