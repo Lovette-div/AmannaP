@@ -84,5 +84,5 @@ Contributions to improve the project are welcome. Please follow these steps:
 Chika Perpetual Amanna - chika.amanna@ashesi.edu.gh
 Lovette Carthy Philips - lovette.philips@ashesi.edu.gh
 
-Project Youtube Link: [repository-url]
+Project Youtube Link: https://www.youtube.com/watch?v=_izmRT6qnFw
 
